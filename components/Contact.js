@@ -15,7 +15,7 @@ const Contact = () => {
                                     <h3 className="title">Get The Party Started</h3>
                                     <p>As the premier event planning company in the area. Each event and client is unique and we believe our services should be as well.</p>
                                 </div>
-                                <form id="contactform" className="row contactform wrap-form clearfix" method="post" action="#" novalidate="novalidate">
+                                <form id="contactform" className="row contactform wrap-form clearfix" method="post" action="#" noValidate="novalidate">
                                     <label className="col-md-6">
                                         <i className="ti ti-user"></i>
                                         <span className="ttm-form-control"><input className="text-input" name="name" type="text" value="" placeholder="Your Name:*" required="required"/></span>

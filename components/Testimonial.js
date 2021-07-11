@@ -46,7 +46,7 @@ const Testimonial = () => {
                       </div>
                       <blockquote>
                         Thank u so much for making our event successful. they
-                        are very professional and everything was on time one's
+                        are very professional and everything was on time one&lsquo;s
                         again appreciate it work.
                       </blockquote>
                       <div className="testimonial-caption">
@@ -70,7 +70,7 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <blockquote>
-                        You are amazing! You worked so hard for Cady's wedding.
+                        You are amazing! You worked so hard for Cady&lsquo;s wedding.
                         You had every little detail under control....you need to
                         run my life!
                       </blockquote>
@@ -92,7 +92,7 @@ const Testimonial = () => {
                       </div>
                       <blockquote>
                         Thank u so much for making our event successful. they
-                        are very professional and everything was on time one's
+                        are very professional and everything was on time one&lsquo;s
                         again appreciate it work.
                       </blockquote>
                       <div className="testimonial-caption">
