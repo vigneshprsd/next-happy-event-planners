@@ -16,11 +16,11 @@ const Testimonial = () => {
             <Row>
               <Col md="6" sm="12" className="mb-2">
                 <Card className="border-0 custom-box-shadow p-4 custom-card">
-                  <div class="testimonials text-center with-caption-border">
-                    <div class="testimonial-content">
-                      <div class="testimonial-avatar pb-15">
-                        <div class="testimonial-img">
-                          <Image class="img-center" src={img3} alt="" />
+                  <div className="testimonials text-center with-caption-border">
+                    <div className="testimonial-content">
+                      <div className="testimonial-avatar pb-15">
+                        <div className="testimonial-img">
+                          <Image className="img-center" src={img3} alt="" />
                         </div>
                       </div>
                       <blockquote>
@@ -28,7 +28,7 @@ const Testimonial = () => {
                         solution for all the wedding requirements. He owns all
                         the items required
                       </blockquote>
-                      <div class="testimonial-caption">
+                      <div className="testimonial-caption">
                         <h6>ADOM SMITH</h6>
                       </div>
                     </div>
@@ -37,11 +37,11 @@ const Testimonial = () => {
               </Col>
               <Col md="6" sm="12">
                 <Card className="border-0 custom-box-shadow p-4 custom-card">
-                  <div class="testimonials text-center with-caption-border">
-                    <div class="testimonial-content">
-                      <div class="testimonial-avatar pb-15">
-                        <div class="testimonial-img">
-                          <Image class="img-center" src={img2} alt="" />
+                  <div className="testimonials text-center with-caption-border">
+                    <div className="testimonial-content">
+                      <div className="testimonial-avatar pb-15">
+                        <div className="testimonial-img">
+                          <Image className="img-center" src={img2} alt="" />
                         </div>
                       </div>
                       <blockquote>
@@ -49,7 +49,7 @@ const Testimonial = () => {
                         are very professional and everything was on time one's
                         again appreciate it work.
                       </blockquote>
-                      <div class="testimonial-caption">
+                      <div className="testimonial-caption">
                         <h6>ADOM SMITH</h6>
                       </div>
                     </div>
@@ -62,11 +62,11 @@ const Testimonial = () => {
             <Row>
               <Col md="6" sm="12">
                 <Card className="border-0 custom-box-shadow p-4 custom-card">
-                  <div class="testimonials text-center with-caption-border">
-                    <div class="testimonial-content">
-                      <div class="testimonial-avatar pb-15">
-                        <div class="testimonial-img">
-                          <Image class="img-center" src={img1} alt="" />
+                  <div className="testimonials text-center with-caption-border">
+                    <div className="testimonial-content">
+                      <div className="testimonial-avatar pb-15">
+                        <div className="testimonial-img">
+                          <Image className="img-center" src={img1} alt="" />
                         </div>
                       </div>
                       <blockquote>
@@ -74,7 +74,7 @@ const Testimonial = () => {
                         You had every little detail under control....you need to
                         run my life!
                       </blockquote>
-                      <div class="testimonial-caption">
+                      <div className="testimonial-caption">
                         <h6>ADOM SMITH</h6>
                       </div>
                     </div>
@@ -83,11 +83,11 @@ const Testimonial = () => {
               </Col>
               <Col md="6" sm="12">
                 <Card className="border-0 custom-box-shadow p-4 custom-card">
-                  <div class="testimonials text-center with-caption-border">
-                    <div class="testimonial-content">
-                      <div class="testimonial-avatar pb-15">
-                        <div class="testimonial-img">
-                          <Image class="img-center" src={img2} alt="" />
+                  <div className="testimonials text-center with-caption-border">
+                    <div className="testimonial-content">
+                      <div className="testimonial-avatar pb-15">
+                        <div className="testimonial-img">
+                          <Image className="img-center" src={img2} alt="" />
                         </div>
                       </div>
                       <blockquote>
@@ -95,7 +95,7 @@ const Testimonial = () => {
                         are very professional and everything was on time one's
                         again appreciate it work.
                       </blockquote>
-                      <div class="testimonial-caption">
+                      <div className="testimonial-caption">
                         <h6>ADOM SMITH</h6>
                       </div>
                     </div>

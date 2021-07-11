@@ -9,107 +9,107 @@ import Image from 'next/image'
 
 const Team = () => {
   return (
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mb-30">
-          <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-            <div class="featured-thumbnail">
+    <div className="container py-5">
+      <div className="row">
+        <div className="col-md-6 col-lg-4 mb-30">
+          <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+            <div className="featured-thumbnail">
               <a href="team-details.html">
-                <Image class="img-fluid" src={Team1} alt="image" />
+                <Image className="img-fluid" src={Team1} alt="image" />
               </a>
             </div>
-            <div class="featured-content featured-content-team">
-              <div class="featured-title">
+            <div className="featured-content featured-content-team">
+              <div className="featured-title">
                 <h5>
                   <a href="team-details.html">Lenalee Crus</a>
                 </h5>
               </div>
-              <span class="category">Graphic Designer</span>
+              <span className="category">Graphic Designer</span>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-30">
-          <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-            <div class="featured-thumbnail">
+        <div className="col-md-6 col-lg-4 mb-30">
+          <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+            <div className="featured-thumbnail">
               <a href="team-details.html">
-                <Image class="img-fluid" src={Team2} alt="image" />
+                <Image className="img-fluid" src={Team2} alt="image" />
               </a>
             </div>
-            <div class="featured-content featured-content-team">
-              <div class="featured-title">
+            <div className="featured-content featured-content-team">
+              <div className="featured-title">
                 <h5>
                   <a href="team-details.html">Diana Aiden</a>
                 </h5>
               </div>
-              <span class="category">Event Planner</span>
+              <span className="category">Event Planner</span>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-30">
-          <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-            <div class="featured-thumbnail">
+        <div className="col-md-6 col-lg-4 mb-30">
+          <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+            <div className="featured-thumbnail">
               <a href="team-details.html">
-                <Image class="img-fluid" src={Team3} alt="image" />
+                <Image className="img-fluid" src={Team3} alt="image" />
               </a>
             </div>
-            <div class="featured-content featured-content-team">
-              <div class="featured-title">
+            <div className="featured-content featured-content-team">
+              <div className="featured-title">
                 <h5>
                   <a href="team-details.html">Jimmy Edward</a>
                 </h5>
               </div>
-              <span class="category">Event Manager</span>
+              <span className="category">Event Manager</span>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-30">
-          <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-            <div class="featured-thumbnail">
+        <div className="col-md-6 col-lg-4 mb-30">
+          <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+            <div className="featured-thumbnail">
               <a href="team-details.html">
-                <Image class="img-fluid" src={Team4} alt="image" />
+                <Image className="img-fluid" src={Team4} alt="image" />
               </a>
             </div>
-            <div class="featured-content featured-content-team">
-              <div class="featured-title">
+            <div className="featured-content featured-content-team">
+              <div className="featured-title">
                 <h5>
                   <a href="team-details.html">Steve Logan</a>
                 </h5>
               </div>
-              <span class="category">Graphic Designer</span>
+              <span className="category">Graphic Designer</span>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-30">
-          <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-            <div class="featured-thumbnail">
+        <div className="col-md-6 col-lg-4 mb-30">
+          <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+            <div className="featured-thumbnail">
               <a href="team-details.html">
-                <Image class="img-fluid" src={Team5} alt="image" />
+                <Image className="img-fluid" src={Team5} alt="image" />
               </a>
             </div>
-            <div class="featured-content featured-content-team">
-              <div class="featured-title">
+            <div className="featured-content featured-content-team">
+              <div className="featured-title">
                 <h5>
                   <a href="team-details.html">Grace Harper</a>
                 </h5>
               </div>
-              <span class="category">Event Planner</span>
+              <span className="category">Event Planner</span>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-30">
-          <div class="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
-            <div class="featured-thumbnail">
+        <div className="col-md-6 col-lg-4 mb-30">
+          <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
+            <div className="featured-thumbnail">
               <a href="team-details.html">
-                <Image class="img-fluid" src={Team6} alt="image" />
+                <Image className="img-fluid" src={Team6} alt="image" />
               </a>
             </div>
-            <div class="featured-content featured-content-team">
-              <div class="featured-title">
+            <div className="featured-content featured-content-team">
+              <div className="featured-title">
                 <h5>
                   <a href="team-details.html">Ronney Hayden</a>
                 </h5>
               </div>
-              <span class="category">Event Manager</span>
+              <span className="category">Event Manager</span>
             </div>
           </div>
         </div>

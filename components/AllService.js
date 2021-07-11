@@ -10,84 +10,84 @@ import Image from 'next/image'
 
 const AllService = () => {
     return (
-        <div class="ttm-row service-section3 clearfix">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <div class=" section-title clearfix">
+        <div className="ttm-row service-section3 clearfix">
+        <div className="container">
+            <div className="row text-center">
+                <div className="col-lg-12">
+                    <div className=" section-title clearfix">
                         <h4>GREAT PROVIDE PLANWEY</h4>
-                        <h2 class="title">Provide Best Services</h2>
+                        <h2 className="title">Provide Best Services</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="featured-imagebox static-title mb-45">
-                        <div class="featured-thumbnail">
-                            <Image class="img-fluid" src={img1} alt=""/>
+            <div className="row">
+                <div className="col-md-6 col-lg-4">
+                    <div className="featured-imagebox static-title mb-45">
+                        <div className="featured-thumbnail">
+                            <Image className="img-fluid" src={img1} alt=""/>
                         </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
+                        <div className="featured-content">
+                            <div className="featured-title">
                                 <h5><a href="#"> Wedding</a></h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="featured-imagebox static-title mb-45">
-                        <div class="featured-thumbnail">
-                            <Image class="img-fluid" src={img2} alt=""/>
+                <div className="col-md-6 col-lg-4">
+                    <div className="featured-imagebox static-title mb-45">
+                        <div className="featured-thumbnail">
+                            <Image className="img-fluid" src={img2} alt=""/>
                         </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
+                        <div className="featured-content">
+                            <div className="featured-title">
                                 <h5><a href="#">Private Party</a></h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="featured-imagebox static-title mb-45">
-                        <div class="featured-thumbnail">
-                            <Image class="img-fluid" src={img3} alt=""/>
+                <div className="col-md-6 col-lg-4">
+                    <div className="featured-imagebox static-title mb-45">
+                        <div className="featured-thumbnail">
+                            <Image className="img-fluid" src={img3} alt=""/>
                         </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
+                        <div className="featured-content">
+                            <div className="featured-title">
                                 <h5><a href="#">Corporate Party</a></h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="featured-imagebox static-title mb-45">
-                        <div class="featured-thumbnail">
-                            <Image class="img-fluid" src={img4} alt=""/>
+                <div className="col-md-6 col-lg-4">
+                    <div className="featured-imagebox static-title mb-45">
+                        <div className="featured-thumbnail">
+                            <Image className="img-fluid" src={img4} alt=""/>
                         </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
+                        <div className="featured-content">
+                            <div className="featured-title">
                                 <h5><a href="#"> Wedding</a></h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="featured-imagebox static-title mb-45">
-                        <div class="featured-thumbnail">
-                            <Image class="img-fluid" src={img5} alt=""/>
+                <div className="col-md-6 col-lg-4">
+                    <div className="featured-imagebox static-title mb-45">
+                        <div className="featured-thumbnail">
+                            <Image className="img-fluid" src={img5} alt=""/>
                         </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
+                        <div className="featured-content">
+                            <div className="featured-title">
                                 <h5><a href="#">Private Party</a></h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="featured-imagebox static-title mb-45">
-                        <div class="featured-thumbnail">
-                            <Image class="img-fluid" src={img6} alt=""/>
+                <div className="col-md-6 col-lg-4">
+                    <div className="featured-imagebox static-title mb-45">
+                        <div className="featured-thumbnail">
+                            <Image className="img-fluid" src={img6} alt=""/>
                         </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
+                        <div className="featured-content">
+                            <div className="featured-title">
                                 <h5><a href="#">Corporate Party</a></h5>
                             </div>
                         </div>
