@@ -30,7 +30,7 @@ const TopBar = (props) => {
     >
       <Container>
         <Navbar.Brand href="/">
-          <Image src={logo} className="logo"></Image>
+          <Image alt="logo" src={logo} className="logo"></Image>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

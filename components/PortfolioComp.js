@@ -8,33 +8,33 @@ const PortfolioComp = () => {
 
   const renderPortfolio = () => {
     return (
-      <div class="featured-imagebox ttm-box-view-top-image featured-imagebox-portfolio mb-30">
-        <div class="featured-portfolio-item">
-          <div class="featured-thumbnail">
+      <div className="featured-imagebox ttm-box-view-top-image featured-imagebox-portfolio mb-30">
+        <div className="featured-portfolio-item">
+          <div className="featured-thumbnail">
             <a href="#">
               {" "}
               <Image className="img-fluid" src={img1} alt="image" />
             </a>
           </div>
-          <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
-            <div class="ttm-media-link">
+          <div className="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
+            <div className="ttm-media-link">
               <a
-                class="ttm_prettyphoto ttm_image"
+                className="ttm_prettyphoto ttm_image"
                 data-gal="prettyPhoto[gallery1]"
                 title="Autue Art Gallery Opening"
                 href="images/portfolio/01.jpg"
                 data-rel="prettyPhoto"
               >
-                <i class="fa fa-image"></i>
+                <i className="fa fa-image"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="featured-bottom-content text-center featured-bottom-portfolio-content">
-          <div class="featured-title">
-            <h6 class="title-post">Autue Art Gallery Opening</h6>
+        <div className="featured-bottom-content text-center featured-bottom-portfolio-content">
+          <div className="featured-title">
+            <h6 className="title-post">Autue Art Gallery Opening</h6>
           </div>
-          <span class="category">Private Party</span>
+          <span className="category">Private Party</span>
         </div>
       </div>
     );
