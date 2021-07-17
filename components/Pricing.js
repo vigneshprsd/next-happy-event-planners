@@ -7,7 +7,7 @@ import Zoom from "react-reveal/Zoom";
 const bookEvent = (data) => {};
 
 const Pricing = () => {
-  const [mobile, setMobile] = useState("7506061091");
+  const [mobile, setMobile] = useState("917506061091");
   const [message, setMessage] = useState("Hello Happy Event Planner");
 
   return (
@@ -33,11 +33,11 @@ const Pricing = () => {
                   <br />
                 </Card.Text>
                 <ReactWhatsapp
-                  className="p-0"
+                  className="bg-dark rounded w-100"
                   number={mobile}
                   message={message}
                 >
-                  <Button className="bg-dark rounded w-100">Book Now</Button>
+                  Book Now
                 </ReactWhatsapp>
               </Card>
             </Zoom>
@@ -60,11 +60,11 @@ const Pricing = () => {
                   <br />
                 </Card.Text>
                 <ReactWhatsapp
-                  className="p-0"
+                  className="bg-dark rounded w-100"
                   number={mobile}
                   message={message}
                 >
-                  <Button className="bg-dark rounded w-100">Book Now</Button>
+                  Book Now
                 </ReactWhatsapp>
               </Card>
             </Zoom>
@@ -87,11 +87,11 @@ const Pricing = () => {
                   <br />
                 </Card.Text>
                 <ReactWhatsapp
-                  className="p-0"
+                  className="bg-dark rounded w-100"
                   number={mobile}
                   message={message}
                 >
-                  <Button className="bg-dark rounded w-100">Book Now</Button>
+                  Book Now
                 </ReactWhatsapp>
               </Card>
             </Zoom>

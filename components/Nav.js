@@ -1,14 +1,16 @@
 import Link from "next/link";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../public/images/logo.png";
 import Image from "next/image";
-import { useState,useEffect } from "react";
+import ReactWhatsapp from "react-whatsapp";
+
+import { useState, useEffect } from "react";
 
 const TopBar = (props) => {
   const [colorChange, setColorchange] = useState(false);
-
+  const [mobile, setMobile] = useState("917506061091");
+  const [message, setMessage] = useState("Hello Happy Event Planner");
   useEffect(() => {
-    
     window.addEventListener("scroll", function () {
       if (window.scrollY >= 500) {
         setColorchange(true);
@@ -24,9 +26,7 @@ const TopBar = (props) => {
       collapseOnSelect
       expand="lg"
       variant="dark"
-      className={`position-fixed w-100 ${
-        colorChange ? "navbar-bg" : "navbar-bg-trans"
-      }`}
+      className={`w-100 ${colorChange ? "navbar-bg" : "navbar-bg"}`}
     >
       <Container>
         <Navbar.Brand href="/">
@@ -54,6 +54,15 @@ const TopBar = (props) => {
               <Link href="/contact">Contact</Link>
             </Nav.Item>
           </Nav>
+          <ReactWhatsapp className="rounded btn btn-outline-success btn-sm" number={mobile} message={message}>
+            <span>
+              {" "}
+              <i className="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+              <span className="mr-3">
+                &nbsp;&nbsp;&nbsp; Contact / Book Now
+              </span>
+            </span>
+          </ReactWhatsapp>
         </Navbar.Collapse>
       </Container>
     </Navbar>

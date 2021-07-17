@@ -4,20 +4,8 @@ import Footer from "./Footer";
 import { useEffect, useState } from "react";
 
 const Layout = ({ children }) => {
-  const [windowSize, setWindowSize] = useState({
-    width: undefined,
-    height: undefined,
-  });
-  const [padding, setPadding] = useState(0);
+  
   useEffect(() => {
-    
-    let height = document.getElementById("topNavBar").clientHeight;
-    if (window.innerWidth > 1400) {
-      setPadding(0);
-    } else {
-      setPadding(height);
-    }
-
     let width = window.innerWidth;
     window.addEventListener("resize", function () {
       if (window.innerWidth !== width) {
@@ -29,12 +17,12 @@ const Layout = ({ children }) => {
         });
       }
     });
-  },[]);
+  }, []);
   return (
     <>
       <Meta />
       <TopBar />
-      <div style={{ paddingTop: padding }}>{children}</div>
+      {children}
       <Footer />
     </>
   );
