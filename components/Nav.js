@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 
 const TopBar = (props) => {
   const [colorChange, setColorchange] = useState(false);
-  const [mobile, setMobile] = useState("917506061091");
+  const [mobile, setMobile] = useState("917506061019");
   const [message, setMessage] = useState("Hello Happy Event Planner");
   useEffect(() => {
     window.addEventListener("scroll", function () {
@@ -54,7 +54,11 @@ const TopBar = (props) => {
               <Link href="/contact">Contact</Link>
             </Nav.Item>
           </Nav>
-          <ReactWhatsapp className="rounded btn btn-outline-success btn-sm" number={mobile} message={message}>
+          <ReactWhatsapp
+            className="rounded btn btn-outline-success btn-sm"
+            number={mobile}
+            message={message}
+          >
             <span>
               {" "}
               <i className="fa fa-whatsapp fa-2x" aria-hidden="true"></i>

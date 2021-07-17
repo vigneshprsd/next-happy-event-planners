@@ -7,7 +7,7 @@ import Zoom from "react-reveal/Zoom";
 const bookEvent = (data) => {};
 
 const Pricing = () => {
-  const [mobile, setMobile] = useState("917506061091");
+  const [mobile, setMobile] = useState("917506061019");
   const [message, setMessage] = useState("Hello Happy Event Planner");
 
   return (
