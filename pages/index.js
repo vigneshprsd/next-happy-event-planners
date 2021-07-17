@@ -5,6 +5,7 @@ import Service from "../components/Service";
 import Slider from "../components/Slider";
 import Testimonial from "../components/Testimonial";
 import Layout from '../components/Layout';
+import ServiceComp from '../components/ServiceComp';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Slider />
       <Service />
       <About />
+      <ServiceComp/>
       <Pricing />
       <Testimonial />
     </Layout>
