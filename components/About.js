@@ -8,7 +8,7 @@ const About = () => {
   return (
     <Container className="py-5">
       <Heading title="About" />
-      <Row className="justify-content-center w-100">
+      <Row className="justify-content-center w-100 m-auto">
         <div className="col-md-4 col-lg-4 mb-30">
           <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
             <div className="featured-thumbnail">

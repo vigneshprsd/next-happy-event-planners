@@ -6,12 +6,13 @@ import Team4 from "../public/images/team/team-img4.jpg";
 import Team5 from "../public/images/team/team-img5.jpg";
 import Team6 from "../public/images/team/team-img6.jpg";
 import Image from 'next/image'
+import { Col, Row } from "react-bootstrap";
 
 const Team = () => {
   return (
     <div className="container py-5">
-      <div className="row">
-        <div className="col-md-6 col-lg-4 mb-30">
+      <Row>
+        <Col md="6" lg="4"  className="mb-30">
           <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
             <div className="featured-thumbnail">
               <a href="team-details.html">
@@ -27,8 +28,8 @@ const Team = () => {
               <span className="category">Graphic Designer</span>
             </div>
           </div>
-        </div>
-        <div className="col-md-6 col-lg-4 mb-30">
+        </Col>
+        <Col md="6" lg="4"  className="mb-30">
           <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
             <div className="featured-thumbnail">
               <a href="team-details.html">
@@ -44,8 +45,8 @@ const Team = () => {
               <span className="category">Event Planner</span>
             </div>
           </div>
-        </div>
-        <div className="col-md-6 col-lg-4 mb-30">
+        </Col>
+        <Col md="6" lg="4"  className="mb-30">
           <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
             <div className="featured-thumbnail">
               <a href="team-details.html">
@@ -61,8 +62,8 @@ const Team = () => {
               <span className="category">Event Manager</span>
             </div>
           </div>
-        </div>
-        <div className="col-md-6 col-lg-4 mb-30">
+        </Col>
+        <Col md="6" lg="4"  className="mb-30">
           <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
             <div className="featured-thumbnail">
               <a href="team-details.html">
@@ -78,8 +79,8 @@ const Team = () => {
               <span className="category">Graphic Designer</span>
             </div>
           </div>
-        </div>
-        <div className="col-md-6 col-lg-4 mb-30">
+        </Col>
+        <Col md="6" lg="4"  className="mb-30">
           <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
             <div className="featured-thumbnail">
               <a href="team-details.html">
@@ -95,8 +96,8 @@ const Team = () => {
               <span className="category">Event Planner</span>
             </div>
           </div>
-        </div>
-        <div className="col-md-6 col-lg-4 mb-30">
+        </Col>
+        <Col md="6" lg="4"  className="mb-30">
           <div className="featured-imagebox featured-imagebox-team ttm-team-box-view-overlay">
             <div className="featured-thumbnail">
               <a href="team-details.html">
@@ -112,8 +113,8 @@ const Team = () => {
               <span className="category">Event Manager</span>
             </div>
           </div>
-        </div>
-      </div>
+        </Col>
+      </Row>
     </div>
   );
 };

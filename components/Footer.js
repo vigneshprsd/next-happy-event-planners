@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 const Footer = () => {
   return (
     <footer className="footer widget-footer bg-img11 ttm-bgcolor-black ttm-bg ttm-bgimage-yes clearfix">
@@ -8,7 +8,7 @@ const Footer = () => {
         <Container>
           <div className="second-footer-inner">
             <Row>
-              <div className="widget-area col-xs-12 col-sm-6 col-md-6 col-lg-3 m-auto">
+              <Col xs="12" sm="6" md="6" lg="3" className="widget-area m-auto">
                 <div className="widget widget-out-link clearfix">
                   <h4 className="widget-title">Contact Us</h4>
                   <ul className="widget-contact">
@@ -28,8 +28,8 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div className="widget-area col-xs-12 col-sm-6 col-md-6 col-lg-3  m-auto">
+              </Col>
+              <Col xs="12" sm="6" md="6" lg="3" className="widget-area m-auto">
                 <div className="widget widget_nav_menu clearfix">
                   <h4 className="widget-title">Site Links </h4>
                   <ul className="menu-footer-services">
@@ -53,9 +53,9 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </Col>
 
-              <div className="widget-area col-xs-12 col-sm-6 col-md-6 col-lg-3  m-auto">
+              <Col xs="12" sm="6" md="6" lg="3" className="widget-area m-auto">
                 <div className="widget widget-out-link clearfix ">
                   <h4 className="widget-title">Frequent Questions</h4>
                   <ul className="widget-text">
@@ -79,7 +79,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </Col>
             </Row>
           </div>
         </Container>

@@ -28,7 +28,7 @@ const Meta = ({ title, keywords, description }) => {
       />
       <meta
         name="keywords"
-        content="Event, In, Mumbai, Party, Planners, Powai, Happy, |"
+        content="Event, In, Mumbai, Party, Planners, Dombivili, Happy, Akshatha Poojary"
       />
       <meta property="fb:admins" content="Happyevents" />
       <meta name="twitter:card" content="summary_large_image" />
@@ -56,7 +56,7 @@ const Meta = ({ title, keywords, description }) => {
 
 Meta.defaultProps = {
   title: "Party planners in Mumbai | Happy Event Planners | Mumbai",
-  keywords: "Event, In, Mumbai, Party, Planners, Powai, Happy, |",
+  keywords: "Event, In, Mumbai, Party, Planners, Dombivili, Happy, | Akshatha Poojary",
   description:
     "Welcome to Happy events &amp; party planners. We are here to make your events awesome &amp; memorable.",
 };

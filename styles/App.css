@@ -3892,11 +3892,14 @@ fieldset:disabled .btn {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 1.7rem;
-  padding-bottom: 1.7rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
 }
 .navbar-bg{
   background-image: linear-gradient(to right,rgb(29, 8, 31),rgb(39, 18, 59));
+}
+.navbar-bg-trans{
+  background-image: linear-gradient(to right,rgb(29, 8, 31),rgba(39, 18, 59,0.2));
 }
 .navbar > .container,
 .navbar > .container-fluid,

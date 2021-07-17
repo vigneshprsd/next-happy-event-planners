@@ -13,9 +13,9 @@ const Testimonial = () => {
       <Container>
         <Carousel interval={4000} prevLabel={""} nextLabel={""} slide={true}>
           <Carousel.Item>
-            <Row>
+            <Row className="m-auto">
               <Col md="6" sm="12" className="mb-2">
-                <Card className="border-0 custom-box-shadow p-4 custom-card">
+                <Card className="border-0 custom-box-shadow p-4 custom-card h-auto">
                   <div className="testimonials text-center with-caption-border">
                     <div className="testimonial-content">
                       <div className="testimonial-avatar pb-15">
@@ -35,8 +35,8 @@ const Testimonial = () => {
                   </div>
                 </Card>
               </Col>
-              <Col md="6" sm="12">
-                <Card className="border-0 custom-box-shadow p-4 custom-card">
+              <Col md="6" sm="12" className="mb-2">
+                <Card className="border-0 custom-box-shadow p-4 custom-card h-auto">
                   <div className="testimonials text-center with-caption-border">
                     <div className="testimonial-content">
                       <div className="testimonial-avatar pb-15">
@@ -59,9 +59,9 @@ const Testimonial = () => {
             </Row>
           </Carousel.Item>
           <Carousel.Item>
-            <Row>
-              <Col md="6" sm="12">
-                <Card className="border-0 custom-box-shadow p-4 custom-card">
+            <Row className="m-auto">
+              <Col md="6" sm="12" className="mb-2">
+                <Card className="border-0 custom-box-shadow p-4 custom-card h-auto">
                   <div className="testimonials text-center with-caption-border">
                     <div className="testimonial-content">
                       <div className="testimonial-avatar pb-15">
@@ -81,8 +81,8 @@ const Testimonial = () => {
                   </div>
                 </Card>
               </Col>
-              <Col md="6" sm="12">
-                <Card className="border-0 custom-box-shadow p-4 custom-card">
+              <Col md="6" sm="12" className="mb-2">
+                <Card className="border-0 custom-box-shadow p-4 custom-card h-auto">
                   <div className="testimonials text-center with-caption-border">
                     <div className="testimonial-content">
                       <div className="testimonial-avatar pb-15">
