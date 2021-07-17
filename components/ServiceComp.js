@@ -24,7 +24,7 @@ const ServiceComp = () => {
       <Row className="m-auto">
         <Heading title="Service We Provide" />
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={baloon} alt="baloon"></Image>
@@ -34,7 +34,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={flower} alt="flower"></Image>
@@ -44,7 +44,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4  rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={dj} alt="dj"></Image>
@@ -54,7 +54,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={micro} alt="microphone"></Image>
@@ -64,7 +64,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={wed} alt="wed"></Image>
@@ -74,7 +74,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={moc} alt="microphone"></Image>
@@ -84,7 +84,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={party} alt="party"></Image>
@@ -94,7 +94,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={photo} alt="photo"></Image>
@@ -104,7 +104,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={baby} alt="baby"></Image>
@@ -114,7 +114,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={selfie} alt="selfie"></Image>
@@ -124,7 +124,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={baloon} alt="ballon"></Image>
@@ -134,7 +134,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={nail} alt="nail"></Image>
@@ -144,7 +144,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={vp} alt="vp"></Image>
@@ -154,7 +154,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={dance} alt="dance"></Image>
@@ -164,7 +164,7 @@ const ServiceComp = () => {
           </Card>
         </Col>
         <Col md="4" lg="3" xs="12" sm="6" className="p-1">
-          <Card className="w-100 p-2 rounded custom-box-shadow border-0">
+          <Card className="w-100 p-2 px-4 rounded custom-box-shadow border-0">
             <div className="d-flex">
               <div className="icon-image">
                 <Image src={tattoo} alt="tattoo"></Image>
