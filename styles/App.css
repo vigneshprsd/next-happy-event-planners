@@ -3822,13 +3822,15 @@ fieldset:disabled .btn {
   pointer-events: none;
   cursor: default;
 }
-.nav-tabs {
+/* .nav-tabs {
   border-bottom: 1px solid #eceeef;
-}
+} */
 .nav-tabs .nav-link {
+  margin-top: 12px;
   margin-bottom: -1px;
   background: 0 0;
-  border: 1px solid transparent;
+  border-radius: 6px;
+  border: 1px solid rgb(20, 8, 31) !important;
 }
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
@@ -3842,9 +3844,9 @@ fieldset:disabled .btn {
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  color: #55595c;
-  background-color: #fff;
-  border-color: #eceeef #eceeef #fff;
+  color: #fff;
+  background-color:  #fd226a !important;
+  border: 1px solid #fd226a !important;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -3856,7 +3858,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1a1a1a;
+  background-color:  rgb(20, 8, 31) !important;;
 }
 .nav-fill .nav-item,
 .nav-fill > .nav-link {
